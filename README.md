@@ -1,4 +1,4 @@
-# ekaagrata_1_0_0
+# ekaagrata-1.0.0
 
 A new Flutter project.
 
