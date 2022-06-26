@@ -25,55 +25,19 @@ class BottomNavBar extends StatelessWidget {
           children: [
             BottomNavigationButton(
               icon: Icons.timer,
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return FrontPage();
-                    },
-                  ),
-                );
-              },
+              onTap: () => Navigator.pushNamed(context, '/'),
             ),
             BottomNavigationButton(
               icon: Icons.auto_graph,
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return GraphPage();
-                    },
-                  ),
-                );
-              },
+              onTap: () => Navigator.pushNamed(context, '/second'),
             ),
             BottomNavigationButton(
               icon: Icons.newspaper,
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return PanelPage();
-                    },
-                  ),
-                );
-              },
+              onTap: () => Navigator.pushNamed(context, '/third'),
             ),
             BottomNavigationButton(
               icon: Icons.face,
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return ProfilePage();
-                    },
-                  ),
-                );
-              },
+              onTap: () => Navigator.pushNamed(context, '/fourth'),
             ),
           ],
         ),

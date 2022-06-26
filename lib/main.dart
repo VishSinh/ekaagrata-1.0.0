@@ -1,3 +1,4 @@
+import 'package:ekaagrata_1_0_0/graph_page.dart';
 import 'package:flutter/material.dart';
 import 'front_page.dart';
 
@@ -16,7 +17,13 @@ class EkaagrataApp extends StatelessWidget {
         ),
         scaffoldBackgroundColor: const Color(0xFF0A0E21),
       ),
-      home: FrontPage(),
+      routes: {
+        '/': (context) => const FrontPage(),
+        '/second': (context) => const GraphPage(),
+        '/third': (context) => const GraphPage(),
+        '/fourth': (context) => const GraphPage(),
+      },
+      initialRoute: '/',
     );
   }
 }
