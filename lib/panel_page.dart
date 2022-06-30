@@ -75,7 +75,7 @@ class PanelCard extends StatelessWidget {
             Text(
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
               style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 18.0,
                 // color: Colors.grey[900],
               ),
               textAlign: TextAlign.center,

@@ -1,4 +1,6 @@
 import 'package:ekaagrata_1_0_0/graph_page.dart';
+import 'package:ekaagrata_1_0_0/panel_page.dart';
+import 'profile_page.dart';
 import 'package:flutter/material.dart';
 import 'front_page.dart';
 
@@ -20,8 +22,8 @@ class EkaagrataApp extends StatelessWidget {
       routes: {
         '/': (context) => const FrontPage(),
         '/second': (context) => const GraphPage(),
-        '/third': (context) => const GraphPage(),
-        '/fourth': (context) => const GraphPage(),
+        '/third': (context) => const PanelPage(),
+        '/fourth': (context) => const ProfilePage(),
       },
       initialRoute: '/',
     );
