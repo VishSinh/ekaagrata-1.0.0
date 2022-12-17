@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 import 'bottom_navigation_button.dart';
-import 'panel_page.dart';
-import 'front_page.dart';
-import 'profile_page.dart';
-import 'graph_page.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({
